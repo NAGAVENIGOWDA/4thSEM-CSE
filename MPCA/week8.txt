@@ -1,0 +1,4 @@
+consider a direct mapped cache of size 
+16 bytes with block size 4 bytes the size of main memory is
+ 256 bytes find the number of bits 
+in tag 

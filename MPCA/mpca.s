@@ -1,0 +1,22 @@
+
+.data
+a:.word 12334555 , 45678909
+b:.word 23456789,98765432
+c:.word 00000000,00000000
+.text 
+LDR R0,=a
+LDR R1,=b
+LDR R2,=c
+LDR r3,[R0]
+LDR R4,[R1]
+ADD r5,r3,R4 
+STR R5,[r2]
+ADD R0,R0,#4
+ADD R1,R1,#4
+ADD R2,R2,#4
+LDR r3,[R0]
+LDR R4,[R1]
+ADC r5,r3,R4 
+STR R5,[r2]
+
+
